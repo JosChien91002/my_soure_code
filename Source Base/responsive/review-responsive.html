@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./review-responsive.css"> 
+    <title>Review Responsive</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .item{
+            background-color: coral;
+            color: #000;
+            padding: 200px 0;
+            line-height: 200px;
+            text-align: center;
+            margin-bottom: 6px;
+        }
+        .item>.row>.col>.item{
+            background-color: aquamarine;
+            padding: 100px 0;
+            align-items: flex-end  ;
+        }
+        .items{
+            background-color: #000;
+        }
+        
+        .app{
+            display: flex;
+            padding: 0 40px;
+        }
+        .sidebar{
+            width: 300px;
+            background-color: lightpink;
+        }
+        .content{
+            width: calc(100% - 300px);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="grid wide"> -->
+        <!-- <div class="row">
+            <div class="col l-3 m-4 c-6 ">
+                <div class="item">Item 1</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 2</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 3</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 4</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 5</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 6</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 7</div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+                <div class="item">Item 8</div>
+            </div>
+        </div>  -->
+        
+        <!-- <div class="row">
+            <div class="col l-5 m-5 c-12">   
+                <div class="item">Img</div>
+            </div>
+            <div class="col l-7 m-7 c-12">
+                <div class="item">Category
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="item">Iteam 1</div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="item">Iteam 2</div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="item">Iteam 3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+
+        <!-- <div class="row">
+            <div class="col l-2 m-0 c-0">
+                <div class="item">Category</div>
+            </div>
+
+            <div class="col l-10 m-12 c-12">
+                <div class="items">
+                    <div class="row">
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 1</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 2</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 3</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 4</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 5</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 6</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 7</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 8</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 9</div>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <div class="item">Item 10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- </div> -->
+
+    <div class="app">
+        <div class="sidebar">
+            Category
+        </div>
+
+        <div class="content">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 1</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 2</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 3</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 4</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 5</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 6</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 7</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 8</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 9</div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="item">Item 10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

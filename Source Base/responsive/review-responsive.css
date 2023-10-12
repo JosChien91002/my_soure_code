@@ -1,0 +1,17 @@
+@media ( min-width: 740px ) and ( max-width: 1024px){
+    .sidebar{
+       display: none;
+    }
+    .content{
+        flex: 1;
+    }
+}
+
+@media ( max-width: 740px ){
+    .sidebar{
+       display: none;
+    }
+    .content{
+        flex: 1;
+    }
+}
